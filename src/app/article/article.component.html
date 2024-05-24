@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article</title>
+</head>
+<body>
+    <div class="blog-section">
+        <div *ngFor="let article of articles" class="article-card">
+          <img [src]="article.Image" [alt]="article.Title">
+          <h2>{{ article.Title }}</h2>
+          <p>{{ article.Introduction }}</p>
+          <small>Last Modified: {{ article.LastMod }}</small>
+          <div class="article-footer">
+            <span>{{ article.IdTheme }}</span>
+          </div>
+        </div>
+      </div>
+      
+</body>
+</html>

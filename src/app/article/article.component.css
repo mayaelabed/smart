@@ -1,0 +1,29 @@
+.blog-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .article-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+  }
+  .article-card img {
+    width: 100%;
+    height: auto;
+  }
+  .article-card h2 {
+    font-size: 1.5em;
+  }
+  .article-card p {
+    font-size: 1em;
+    color: #666;
+  }
+  .article-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8em;
+    color: #999;
+  }
+  
