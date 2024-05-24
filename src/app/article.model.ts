@@ -16,4 +16,3 @@ export interface Article {
     IdUser: number;
     IdHost: number;
   }
-  

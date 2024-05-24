@@ -12,7 +12,7 @@ export class ArticleComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    this.http.get('http://localhost:90').subscribe(data => {
+    this.http.get('http://localhost:90/conf.php').subscribe(data => {
       this.articles = data;
     }, error => {
       console.error('Error fetching articles:', error);
